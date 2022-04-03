@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
+import HomePageReviews from '../Reviews/HomePageReviews';
 import camera from './../../images/camera.png';
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
+    const slicedReviews = reviews.slice(0, 3);
     return (
         <div className='container px-6 mx-auto'>
             <div className='grid justify-between items-center md:grid-cols-2 py-16'>
@@ -20,9 +24,16 @@ const Home = () => {
             </div>
             <div className='my-12'>
                 <h1 className='text-center text-lg font-bold md:text-4xl text-gray-800 lg:text-5xl'>Customer Reviews</h1>
-                <div className=''>
-
+                <div className='my-16 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                    {
+                        slicedReviews.map(review => <HomePageReviews
+                            key={review.id}
+                            review={review}
+                        ></HomePageReviews>)
+                    }
                 </div>
+
+                <Link to='/reviews'>SEE ALL REVIEWS</Link>
             </div>
         </div>
     );
