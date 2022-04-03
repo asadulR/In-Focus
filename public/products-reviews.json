@@ -1,0 +1,44 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Alex Cary",
+    "ratings": 4.7,
+    "img": "https://pbs.twimg.com/media/D_MH-IWUIAISWgT.jpg",
+    "review": "This is a Great Camera. I love this one. Super lens, excellent battery backup."
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "name": "Tylor Swift",
+    "ratings": 5,
+    "img": "https://www.pinkvilla.com/imageresize/taylor_swift_songs.jpg?width=752&format=webp&t=pvorg",
+    "quantity": "It does not matter whether the light condition is bright or dark, the images clicked using DSLR always maintain quality. I love it."
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "name": "Justin Bieber",
+    "ratings": 4.9,
+    "img": "https://www.biography.com/.image/t_share/MTM2OTI2NTY2Mjg5NTE2MTI5/justin_bieber_2015_photo_courtesy_dfree_shutterstock_348418241_croppedjpg.jpg",
+    "quantity": "Handy enough to carry around and you can capture pretty decent photos with it. You cannot take multiple types of images without dropping the quality."
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "name": "katy Perry",
+    "ratings": 5,
+    "img": "https://www.iwmbuzz.com/wp-content/uploads/2022/02/katy-perry-shares-the-advice-shed-give-her-boy-crazy-younger-self-2-920x920.jpg",
+    "quantity": "TTL viewing shows the same view that of the lens that takes the picture. Which literally means, what you view is what you capture."
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "name": "Shakib Al Hasan",
+    "ratings": 4.2,
+    "img": "https://p.imgci.com/db/PICTURES/CMS/296300/296315.10.jpg",
+    "quantity": "Dust can sneak inside the camera body when we change the lenses. There is also software that can spot the dust in the images and eliminate dust automatically."
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "name": "Selena Gomez",
+    "ratings": 4.5,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa8n4xN_NzBDHigVsfZhb_kT94DvHdC38jaq1tIg0tQiu9WiOm",
+    "quantity": "The focusing on this camera is not only fast but also accurate. It precisely focuses on the subject. You can put your camera in the auto-focus mode."
+  }
+]

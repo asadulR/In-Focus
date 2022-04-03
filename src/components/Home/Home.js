@@ -18,6 +18,12 @@ const Home = () => {
                     <img src={camera} alt="" />
                 </div>
             </div>
+            <div className='my-12'>
+                <h1 className='text-center text-lg font-bold md:text-4xl text-gray-800 lg:text-5xl'>Customer Reviews</h1>
+                <div className=''>
+
+                </div>
+            </div>
         </div>
     );
 };
