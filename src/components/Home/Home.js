@@ -4,7 +4,7 @@ import useReviews from '../../hooks/useReviews';
 import HomePageReviews from '../Reviews/HomePageReviews';
 import camera from './../../images/camera.png';
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReviews();
     const slicedReviews = reviews.slice(0, 3);
     return (
         <div className='container px-6 mx-auto'>
