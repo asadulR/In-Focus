@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { MenuIcon, XIcon, CameraIcon } from '@heroicons/react/solid'
 import CustomLink from '../CustomLink/CustomLink';
-import { Link } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 const Header = () => {
     const [open, setOpen] = useState(false);
-
     return (
         <div className='bg-indigo-100 shadow-md shadow-zinc-300'>
             <div className='md:flex justify-between items-center'>
