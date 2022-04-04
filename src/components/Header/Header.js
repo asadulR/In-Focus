@@ -21,6 +21,8 @@ const Header = () => {
                         <CustomLink className='font-semibold text-lg md:mr-6' to='/home'>HOME</CustomLink>
                         <CustomLink className='font-semibold text-lg md:mr-6' to='/reviews'>REVIEWS</CustomLink>
                         <CustomLink className='font-semibold text-lg md:mr-6' to='/dashboard'>DASHBOARD</CustomLink>
+                        <CustomLink className='font-semibold text-lg md:mr-6' to='/blogs'>BLOGS</CustomLink>
+                        <CustomLink className='font-semibold text-lg md:mr-6' to='/about'>ABOUT</CustomLink>
                         <CustomLink className='font-semibold text-lg md:mr-6' to='/contact'>CONTACT</CustomLink>
                     </ul>
                 </nav>
