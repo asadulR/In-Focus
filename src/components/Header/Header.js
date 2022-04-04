@@ -6,7 +6,7 @@ const Header = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className='bg-indigo-100'>
+        <div className='bg-indigo-100 shadow-md shadow-zinc-300'>
             <div className='md:flex justify-between items-center'>
                 <div className='flex justify-between items-center py-5 px-8 container mx-auto'>
                     <div>
@@ -22,8 +22,7 @@ const Header = () => {
                         <CustomLink className='font-semibold text-lg md:mr-6' to='/reviews'>REVIEWS</CustomLink>
                         <CustomLink className='font-semibold text-lg md:mr-6' to='/dashboard'>DASHBOARD</CustomLink>
                         <CustomLink className='font-semibold text-lg md:mr-6' to='/blogs'>BLOGS</CustomLink>
-                        <CustomLink className='font-semibold text-lg md:mr-6' to='/about'>ABOUT</CustomLink>
-                        <CustomLink className='font-semibold text-lg md:mr-6' to='/contact'>CONTACT</CustomLink>
+                        <CustomLink className='font-semibold text-lg md:mr-6' to='/login'>LOGIN </CustomLink>
                     </ul>
                 </nav>
             </div>
